@@ -67,7 +67,7 @@ function Homepage() {
     setLoading(true);
     const token = localStorage.getItem('token'); // Retrieve token from localStorage
   
-    fetch("http://localhost:1050/courses", {
+    fetch("https://course-helper-iitk-backend.vercel.app/courses", {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -97,7 +97,7 @@ function Homepage() {
     const token = localStorage.getItem("token");
   
     try {
-      const response = await fetch(`http://localhost:1050/courses/${id}`, {
+      const response = await fetch(`https://course-helper-iitk-backend.vercel.app/courses/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`, // Include token here
@@ -150,7 +150,7 @@ function Homepage() {
   // };
 
   const handleUpdate = (id, updatedCourse) => {
-    fetch(`http://localhost:1050/courses/${id}`, {
+    fetch(`https://course-helper-iitk-backend.vercel.app/courses/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -176,7 +176,7 @@ function Homepage() {
     const token = localStorage.getItem("token");
   
     try {
-      const response = await fetch("http://localhost:1050/courses", {
+      const response = await fetch("https://course-helper-iitk-backend.vercel.app/courses", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

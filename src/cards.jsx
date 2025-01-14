@@ -42,7 +42,7 @@ export default function ActionAreaCard({ id, CourseName, CourseCode, Credits, De
   const handleSubmit = () => {
     const token = localStorage.getItem("token");
   
-    fetch(`http://localhost:1050/courses/${id}`, {
+    fetch(`https://course-helper-iitk-backend.vercel.app/courses/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

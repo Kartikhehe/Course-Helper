@@ -9,7 +9,7 @@ export default function RegisterPage() {
     e.preventDefault(); // Prevent default form submission
 
     try {
-      const response = await fetch("http://localhost:1050/register", {
+      const response = await fetch("https://course-helper-iitk-backend.vercel.app/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

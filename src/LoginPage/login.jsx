@@ -10,7 +10,7 @@ export default function LoginPage() {
     e.preventDefault();
   
     try {
-      const response = await fetch("http://localhost:1050/login", {
+      const response = await fetch("https://course-helper-iitk-backend.vercel.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
