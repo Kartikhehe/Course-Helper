@@ -57,7 +57,7 @@ export default function LoginPage() {
       >
         <div className="login-logo" style={{ marginBottom: "1rem" }}>
           <img
-            src="/logo2.png" // Replace with your logo path
+            src="https://ik.imagekit.io/zsoj3wjy2b/logo2.png?updatedAt=1752110571461" // Replace with your logo path
             alt="Logo"
             style={{ width: "80px", height: "80px", objectFit: "contain" }}
           />
