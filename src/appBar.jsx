@@ -33,7 +33,7 @@ export default function ButtonAppBar() {
           {/* Logo and Title */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <img
-              src="../logo.png" // Replace with your actual logo path
+              src="/logo.png" // Replace with your actual logo path
               alt="Logo"
               width={60}
               height={60}
