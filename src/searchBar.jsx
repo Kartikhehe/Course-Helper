@@ -7,6 +7,10 @@ const StyledSearchBox = styled(Box)(({ theme }) => ({
   paddingBottom: theme.spacing(0),
   backgroundColor: "#f5f5f5",
   borderRadius: theme.spacing(1),
+  backgroundColor: "#f8f9fa",
+  backgroundImage: "radial-gradient(#d3d3d3 1px, transparent 0)",
+  backgroundSize: "18px 18px",
+
 }));
 
 const CourseSearchBar = ({ courses, onSearch }) => {

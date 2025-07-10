@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +7,13 @@ body {
     font-family: 'Roboto', sans-serif; /* Ensure consistent font styling */
     background-color: #f4f4f4; /* Optional, improves visual appearance */
   }
-  
+
+body {
+  background-color: #f8f9fa;
+  background-image: radial-gradient(#d3d3d3 2px, transparent 0);
+  background-size: 18px 18px;
+}
+   
   html, body, #root {
     min-height: 100%;
     width: 100%;
