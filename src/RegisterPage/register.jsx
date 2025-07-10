@@ -59,7 +59,7 @@ export default function RegisterPage() {
       >
         <div className="login-logo" style={{ marginBottom: "1rem" }}>
           <img
-            src="https://ik.imagekit.io/zsoj3wjy2b/logo2.png?updatedAt=1752110571461"
+            src="/logo2.png"
             alt="Logo"
             style={{ width: "80px", height: "80px", objectFit: "contain" }}
           />
